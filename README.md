@@ -45,6 +45,7 @@ Run `schema/seed.sql` against a fresh SQLite database to reproduce any query her
 - `CASE WHEN` labeling applied after window logic resolves
 - `LAG()` and `LEAD()` for row-to-row comparison
 - Date arithmetic with `julianday()`
+- ROWS BETWEEN (running totals, moving averages,centered/trailing/following windows)
 
 ## Notes on dialect
 
